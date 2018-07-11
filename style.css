@@ -1,0 +1,108 @@
+body
+{
+    overflow-x: hidden;
+}
+
+a.notify-btn
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: 3px;
+}
+
+a.notify-btn.default{background: #acacac;}
+a.notify-btn.red{background: #F44336;}
+a.notify-btn.green{background: #4caf50;}
+a.notify-btn.blue{background: #2196f3;}
+
+.notification
+{
+    width: 400px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    transition: 0.6s;
+    visibility: hidden;
+}
+
+.notification.bottom-left.show
+{
+    visibility: visible;
+    left: 50px;
+}
+
+.notification.bottom-right.show
+{
+    visibility: visible;
+    right: 50px;
+}
+
+.notification.top-right.show
+{
+    visibility: visible;
+    right: 50px;
+}
+
+.notification.top-left.show
+{
+    visibility: visible;
+    left: 50px;
+}
+
+.notification p
+{
+    margin-bottom: 0;
+}
+
+.notification.default
+{
+    background: #acacac;
+    color: #ffffff;
+}
+
+.notification.blue
+{
+    background: #2196f3;
+    color: #ffffff;
+}
+
+.notification.red
+{
+    background: #F44336;
+    color: #ffffff;
+}
+
+.notification.green
+{
+    background: #4caf50;
+    color: #ffffff;
+}
+
+.notification.bottom-left
+{
+    position: absolute;
+    bottom: 30px;
+    left: -400px;
+}
+
+.notification.bottom-right
+{
+    position: absolute;
+    bottom: 30px;
+    right: -400px;
+}
+
+.notification.top-right
+{
+    position: absolute;
+    top: 30px;
+    right: -400px;
+}
+
+.notification.top-left
+{
+    position: absolute;
+    top: 30px;
+    left: -400px;
+}
